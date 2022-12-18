@@ -1,0 +1,54 @@
+.container__text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+.we__h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+.we__p{
+    font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+
+}
+.info_container{
+    display: block;
+    justify-content: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px 0 black;
+    padding: 20px;
+}
+.form__container{
+    max-width: 800px;
+    box-shadow: 0 0 10px 0 black;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_container{
+    max-width: 800px;
+        box-shadow: 0 0 10px 0 black;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto
+}
+.contact__text{
+    font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+}
+@media screen and (max-width: 576px){
+    .info_container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}

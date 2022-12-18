@@ -1,0 +1,76 @@
+.carousel-item>img{
+    height: 500px;
+    width: auto;
+}
+.entry-description-container {
+    position: absolute;
+    top: 110px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    max-width: 400px;
+    left: 75px;
+    
+}
+.slider-title-head {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.entry-title a{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+.entry-content {
+    margin: 20px;
+}
+.entry-content p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    margin-top: 15px;
+}
+.btn>a{
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.9);
+    max-width: 100%;
+ 
+}
+.card{   
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Rubik' ;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+    border: black;
+}
+.card:hover{
+    box-shadow: 0 0 25px 0 rgba(255, 255, 255,0.5) ;
+    transition: all 0.5s;
+}
+@media screen and (max-width:576px){
+    .container{
+        flex-direction: column;
+        
+    }
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .entry-description-container{
+        max-width: 350px;
+        left: 50px;
+    }
+}
